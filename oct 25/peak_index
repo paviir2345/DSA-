@@ -1,0 +1,15 @@
+def peak_index(arr):
+    left = 0
+    right = len(arr) - 1
+    while left < right:
+        mid = (left + right) // 2
+        if arr[mid] > arr[mid+1]:
+            return mid
+        else:
+            right = mid - 1
+
+    return mid
+arr = [0,2,1,0]
+print(peak_index(arr))
+        
+           
