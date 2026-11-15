@@ -31,7 +31,7 @@ def decode(s):
     return result
 
 
-# Main program
+
 words = ["cat", "dog"]
 
 encoded = encode(words)
