@@ -4,4 +4,4 @@ class Solution:
             if arr[i] == x:
                 return i
 
-        return -1  
+        return -1
